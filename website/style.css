@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body  {
+    
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background: none;
+       
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color:rgb(5, 5, 5);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    color:black;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 2px solid #eee9e9;
+    padding: 12px;
+    margin: 36px;
+    width: 200px;
+    text-align: center;
+    word-spacing: 3px;
+    
+    
+}
+
+.product img {
+    width: 100%;
+}
+
+button {
+    background-color: #050000;
+    color: rgb(204, 11, 11);
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #940f0f;
+    
+}
+
+#cart, #profile, #wishlist {
+    margin-top: 20px;
+}
+
+#cart ul, #wishlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+section#main
+{
+   
+
+text-align: 500px;
+display:block;
+background-color:white;
+letter-spacing: 2px;
+word-spacing: 6px;
+padding-bottom: 70px;
+transition: 3s;
+}
+section#products
+{
+
+    background-color:rgb(247, 245, 245);
+    
+}
+section#cart
+{
+width: 1600px;
+height: 700px;
+text-align:left;
+word-spacing: 10px;
+background-color:rgb(255, 253, 253);
+}
+
