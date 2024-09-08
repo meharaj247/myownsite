@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <link
-      rel="stylesheet"
+  <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
@@ -15,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <eader>
+    <header>
         <div class="container">
             <nav class="navbar navbar-expand-sm">
                 <ul class="navbar-nav">
@@ -29,6 +28,11 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#skills">skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"href="#projects">projects</a> 
+                                 </li>
+
                   </li> 
                   <li class="nav-item">
                     <a class="nav-link" href="#Education">education</a>
@@ -86,29 +90,40 @@
                 including archiecture,appilicaion,and use cases </br></p>
             </div>
             </section>
-        <section id="project">
-        </h2>projects</h2>
-        <div class ="project-box">
-            <img src="images (6).jpg" alt="project image" class="project-image">
-            <button class="view-more" onclick="window.open"('')">view more</button>
-
-        </div>
-        </section>
-
-
-
+            <section id="projects">
+                <h1 style="margin-bottom: 20px;">Projects</h1></br>
+                <div class="projects-container">
+                    
+                    <div class="project-box">
+                        <h2>healthcare</h2>
+                        <img src="wallaper 5.jpg" alt="project image" class="project-image">
+                        <button class="view-more" onclick="window.open('https://meharaj247.github.io/healthcare/', '_blank')">View More</button>
+                    </div>
+                       <div class="project-box">
+                        <h2>Portfolio</h2>
+                        <img src="wallaper.3jpg.webp" alt="project image" class="project-image">
+                        <button class="view-more" onclick="window.open('https://meharaj247.github.io/project2/', '_blank')">View More</button>
+                    </div>
+                    
+                    <div class="project-box">
+                        <h2>jewellery store</h2>
+                        <img src="wallaper 7.jpg" alt="project image" class="project-image">
+                        <button class="view-more" onclick="window.open('https://meharaj247.github.io/mywrk/', '_blank')">View More</button>
+                    </div>
+                </div>
+            </section>
 
             
             <section id="skills">
-        <h2>Skills</h2>
+        <h1 style="margin-bottom: 20px;">Skills</h1>
         <ul>
-            <li>HTML</li><br/>
-            <li>JAVA</li><br/>
-            <li>CSS</li><br/>
-            <li>Introduction to GENAI</li></br>
-            <li>Introduction to LLM</li><br/>
-            <li>Communication</li></br>
-            <li>Emotional Intelligence</li>
+            <li style="margin-left: 60px;">HTML</li><br/>
+            <li style="margin-left: 60px;">JAVA</li><br/>
+            <li style="margin-left: 60px;">CSS</li><br/>
+            <li style="margin-left: 60px;">Introduction to GENAI</li></br>
+            <li style="margin-left: 60px;">Introduction to LLM</li><br/>
+            <li style="margin-left: 60px;">Communication</li></br>
+            <li style="margin-left: 60px;">Emotional Intelligence</li>
         </ul>
     </section>
 <section id="Education">
@@ -134,22 +149,30 @@
                 </div>
                 
 </section>
-    <section id="contactme">
-        <h2>Contact me</h2>
-        <p>Email: meharajbanu@example.com</p>
-        <p>phone: +91 7868833207</p>
-        <form action="mailto:meharajbanu@example.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+    <section id="Contactme">
         
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
         
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+            <h1 style="margin-bottom: 40px;">Contact me</h1>
+            <div class="Contact-info">
+              <p>Email: meharajbanu074@gmail.com</p>
+              <p>phone: 78688-33207</p>
+            </div>
+            <div class="Contact-form">
+              <form action="meharajbanu074@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+                 <button>send</button>
+              </form>
+            </div>
         
-            <input type="submit" value="Send">
-          </form>
+              
+                      </section>
+          
+          
             
     </section>
 

@@ -4,14 +4,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 
 header {
-    position:relative;
+    position:fixed;
     width: 100%;
     height: auto;
-    background:#d894c8;
+    background:white;
     border-bottom: 1px solid #f8f7f7;
     box-shadow: 0px 0px 4px 0px #934c84;
 
 }
+h1{
+  color:white;
+}
+h2{
+  color: black;
+}
+h3{
+  color: white;
+}
+li{
+  color: white;
+}
+p
+{
+  color: white;
+}
+
 u1.navbar-nav a {
     color: #fff;
     transition: 0.5s;
@@ -26,22 +43,17 @@ body
   font-family: "Baskervville SC", serif;
   font-weight: 400;
   font-style: normal;
-
-
+    }
+body
+    {
           
-        }         
-         
-          
-        
- {
-    
+  background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
-    background-possision: center;
     min-height: 700px;
     margin:0;
-    padding: 400px 20px 20px;
-     min-width: 100px;
+  
+     min-width: 100%
 
     }
 
@@ -63,71 +75,89 @@ min-height:750px;
 padding: 180px 10px 10px;
 
 }
-section#project{
 
-padding: 20px;
-background-color: #934c84;
+
+
+
+section#projects {
+  width: 100%;
+  padding: 20px;
+  padding-top: 20px;
+  background-color: #051c47;
+  height: 700px;
 }
+
+.projects-container {
+  display: flex; 
+  gap: 20px; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+}
+
 .project-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: white; /* Optional: Customize as needed */
-    max-width: 300px; /* Customize the width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px; 
+  padding: 20px;
+  border: 5px solid rgb(11, 161, 167);
+  border-radius: 10px;
+  background-color: white;
+  flex: 1 1 30%; 
+  max-width: 350px; 
+  box-shadow: 0 4px 8px rgba(214, 35, 35, 0.1); 
 }
 
 .project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.project-image:hover {
+  transform: scale(1.1); 
 }
 
 .view-more {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none; /* Removes underline from button */
 }
 
 .view-more:hover {
-    background-color: #0056b3; /* Optional: Hover effect */
+  background-color: #0056b3; /* Hover effect */
 }
-
-
-
-
-
-
-
-
-
-
-
 section#skills
 {
- background-image:none;
-       background-color: #78a3cd;
-       color:white ;
-min-height:750px;
-padding: 180px 10px 10px;
+  background-color: #7aabd2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+    padding-right: 100px;
+  height: 650px;
 }
-section#Education
-{
-    background-image:none;
-       background-color: #414ba7;
-       color:white ;
-min-height:750px;
-padding: 180px 10px 10px;
+
+section#Education{
+  background-color: #414ba7;
+  padding-top: 100px;
+  padding-bottom: 100px;
+    padding-right: 100px;
+  height: 750px;
+
 }
-section#contactme
+
+
+
+
+section#Contactme
 {background-image:none;
     background-color:#1c1c45;
     color:white ;
