@@ -1,3 +1,6 @@
 [submodule "protfolio_files"]
-	path = protfolio_files
+path=portfolio_files
+url=https://github.com/meharaj247/protfolio.git
+[submodule "protfolio"]
+	path = protfolio
 	url = https://github.com/meharaj247/protfolio.git
